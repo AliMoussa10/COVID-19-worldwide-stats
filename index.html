@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Yet another COVID19 tracker</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="progress-bar" id="myBar">
+    </div>
+  </div>
+
+  <div id="main">
+    <div id="head">
+      <p>COVID-19 worldwide stats</p>
+      <p class="small">Data source: <a href="https://corona.lmao.ninja/"> https://corona.lmao.ninja/</a></p>
+    </div>
+    <div id="confirmed_div">
+
+      <p>Total cases:</p>
+      <p id="confirmed">
+        Receiving data...
+      </p>
+
+      <p>Total today cases:</p>
+      <p id="tconfirmed">
+        Receiving data...
+
+        </span>
+    </div>
+    <div id="active_div">
+      <p>Active cases:</p>
+      <p id="active">Receiving data...</p>
+    </div>
+    <div id="deaths_div">
+      <p>Total deaths:</p>
+      <p id="deaths">Receiving data...</p>
+      <p>Total today deaths:</p>
+      <p id="tdeaths">Receiving data...</p>
+    </div>
+    <div id="recovered_div">
+      <p>Total recovered:</p>
+      <p id="recovered">Receiving data...</p>
+      <p>Total today recovered:</p>
+      <p id="trecovered">Receiving data...</p>
+    </div>
+
+    <div id="info">
+      <h2>&#9432; Info</h2>
+      <p>Coronavirus disease 2019 (COVID-19) is an infectious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). First identified in December 2019 in Wuhan, China, it resulted in an ongoing pandemic. The first case may be traced back to 17 November 2019. Common symptoms include fever, cough, fatigue, shortness of breath, and loss of smell and taste. While the majority of cases result in mild symptoms, some progress to acute respiratory distress syndrome (ARDS) likely precipitated by a cytokine storm, multi-organ failure, septic shock, and blood clots. The time from exposure to onset of symptoms is typically around five days, but may range from two to fourteen days. The virus is primarily spread between people during close contact, most often via small droplets produced by coughing, sneezing, and talking.</p>
+    </div>
+    <div id="info2">
+      <h2>Why did I create this code?</h2>
+      <p>I already saw about 5 COVID19 trackers on Sololearn, but some of them were displaying wrong data, some had awful UI, some had some bugs, etc. So I decided to create my own. Stats per each country will be added soon. Maybe. 😃😉☺ </p>
+    </div>
+    <div>👍 Please upvote if you like this code.<br /><i>#StayHome!</i></div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

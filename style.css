@@ -1,0 +1,110 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+
+}
+
+#main div {
+  margin: 20px auto;
+  box-shadow: 5px 5px 10px lightgrey;
+  padding: 20px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.small {
+  font-size: 10px;
+
+}
+
+button {
+
+  padding: 10px;
+  text-align: center;
+  border-radius: 3px;
+  background-color: #3087ff;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+#head {
+  background-image: linear-gradient(#f26e74, #f25359);
+  margin-top: 3px;
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+  font-size: 21px;
+
+}
+
+#head p {
+  margin: 5px;
+}
+
+#confirmed_div {
+  border-left: solid 10px orange;
+}
+
+#active_div {
+  border-left: solid 10px darkblue;
+}
+
+#deaths_div {
+  border-left: solid 10px red;
+}
+
+#recovered_div {
+  border-left: solid 10px darkgreen;
+}
+
+#recovered,
+#active,
+#deaths,
+#confirmed {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#info,
+#info2 {
+  padding-top: 5px;
+  text-align: left;
+  font-size: 15px;
+}
+
+#info p,
+#info2 p {
+  text-align: left;
+}
+
+#info {
+  border-left: solid 10px skyblue;
+}
+
+#info2 {
+  border-left: solid 10px #f70;
+}
+
+h2 {
+  text-align: center;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.progress-bar {
+  height: 5px;
+  width: 0;
+  background: black;
+}
+
+i {
+  font-size: 20px;
+  font-weight: 300;
+}
